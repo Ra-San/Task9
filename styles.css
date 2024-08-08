@@ -1,0 +1,123 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.header {
+	display: flex;
+    margin: 60px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.header .header2 {
+	max-width: auto;
+ 	font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .contact {
+    padding: 5px 20px;
+    background-color:rgba(0, 255, 64, 0.466);
+    border-radius: 15px;
+    font-size: 15px;
+    color: green;
+}
+
+.header p {
+	color: rgb(56, 75, 80);
+}
+
+.tombol {
+    display: flex;
+}
+
+.tombol1 {
+	background-color: rgb(59, 199, 94);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tombol2 {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px 30px;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ .desc p {
+    max-width: 200px;
+ }
+
+.material-symbols-outlined {
+    font-size: 24px;
+    background-color: rgb(59, 199, 94);
+    padding: 9px;
+    border-radius: 30px;
+    color: white;
+}
+
+
+.fa {
+    padding: 10px;
+    color: rgb(59, 199, 94);
+    text-decoration: none;
+  }
+
+form {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+label {
+    display: flex;
+    margin-bottom: 5px;
+    color: black;
+    padding: 10px;
+}
+
+input, textarea {
+    width: 400px;
+    padding: 7px;
+    margin-bottom: auto;
+    border: 1px solid #213257;
+    border-radius: 5px;
+}
+
+.message {
+    height: 200px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(59, 199, 94);
+    color: white;
+    border: solid;
+
+}
+
